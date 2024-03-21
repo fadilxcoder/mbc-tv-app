@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MBC TV</title>
+        <meta name="description" content="">
+        <meta name="author" content="fadilxcoder">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <link rel="icon" href="./favicon.png">
+        <link href="./style.css" rel="stylesheet"/>
+    </head>
+    <body id="tv">
+        <main>
+            <div id="player">
+                <div id="playlist" data-level="">
+                    <span id="app-control-menu" data-package="hidden">&#9863;</span>
+                    <select id="tv-channels">
+                        <option value="https://player.livepush.io/emvGTyhWdTCZe" data-value="https://hls.mbconline.xyz/live/MBC1/index.m3u8">MBC 1</option>
+                        <option value="https://player.livepush.io/emvy70Qef4CwY" data-value="https://hls.mbconline.xyz/live/MBC2/index.m3u8">MBC 2</option>
+                        <option value="https://player.livepush.io/emvHeXPosbqX5" data-value="https://hls.mbconline.xyz/live/MBC3/index.m3u8">MBC 3</option>
+                        <option value="https://player.livepush.io/emvu5kHmgbyJc" data-value="https://hls.mbconline.xyz/live/MBC5/index.m3u8">MBC 5</option>
+                        <option value="https://player.livepush.io/emvEB8_gpaUVM" data-value="https://hls.mbconline.xyz/live/education/index.m3u8">MBC 17</option>
+                        <option value="https://player.livepush.io/emvADEQ57hS3D" data-value="https://hls.mbconline.xyz/live/MBCSAT/index.m3u8">MBC SAT</option>
+                    </select>
+                </div>
+            </div>
+            <iframe 
+                src="https://player.livepush.io/emvGTyhWdTCZe"
+                id="stream-identifier"
+            ></iframe>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
